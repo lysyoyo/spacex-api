@@ -66,7 +66,6 @@ import type { Lancement } from "./types/lancement";
 import NextLaunchSection from "./components/FutureEvement.vue";
 import LaunchList from "./components/EvenementList.vue";
 import LaunchModal from "./components/DetaillsModal.vue";
-import logo from "./assets/spacex-logo.png";
 
 const nextLaunch = ref<Lancement | null>(null);
 const launches = ref<Lancement[]>([]);
